@@ -9,8 +9,8 @@ extern keymap_config_t keymap_config;
 #define _RAISE 2
 #define _VIM 3
 
-#define LWR MO(_RAISE)
-#define RSE MO(_LOWER)
+#define RSE MO(_RAISE)
+#define LWR MO(_LOWER)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_QWERTY] = LAYOUT_5x6(
